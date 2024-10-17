@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font/font/stylesheet.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/new.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <title>New</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper-header">
+        <div class="header-flex">
+            <div class="logo">
+                <a href="#!">
+                 <img src="img/logo.svg" alt="HP logo">
+                </a>
+            </div>
+            <nav>
+                <div class="menu">
+                    <button class="dropbtn"><a href="">Відгуки</a></button>
+                  <ul class="min-menu">
+                      <li><a href="index.html">Головна</a></li>
+                      <li><a href="order.html">Замовити</a></li>
+                      <li><a href="product.html">Каталог</a></li>
+                  </ul>
+                </div>   
+            </nav>
+            <a href="#modal" class="button" id="sing-in-button">Sign in</a>
+        
+            <!-- Модальне вікно -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <a href="#" class="close">&times;</a>
+        
+                <h2>Форма автентифікації</h2>
+                <form>
+                    <label for="username">Ім'я користувача:</label>
+                    <input type="text" id="username" name="username" required>
+        
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password" required>
+        
+                    <button type="submit" class="button">Увійти</button>
+                </form>
+            </div>
+        </div>
+        <div class="mobile-search">
+            <form class="search" action="" method="get">
+                <input name="s" placeholder="Пошук..." type="search">
+                <span class="search-icon">&#128269;</span>
+            </form>
+            </div>
+        </div>    
+        </header>
+        <div class="banner-with-text">
+            <div class="owl-carousel" id="banner-carousel">
+                <div class="item">
+                    <div class="banner-photo">
+                        <img src="../assets/img/product4.png" alt="Image 1">
+                        <div class="overlay">
+                            <h2>Відгуки</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="banner-photo">
+                        <img src="../assets/img/product2.png" alt="Image 2">
+                        <div class="overlay">
+                            <h2>Відгуки</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="banner-photo">
+                        <img src="../assets/img/product3.png" alt="Image 2">
+                        <div class="overlay">
+                            <h2>Відгуки</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    <div class="feedback">
+         <div class="wrapper">
+             <div class="items">
+                <div class="item-feedback">
+                    <div class="avatar">
+                        <img src="../assets/img/boy.png" alt="Аватар хлопця">
+                    </div>
+                    <div class="text">
+                        <p>“Це був найкращий досвід у моєму житті! Сервіс на найвищому рівні, рекомендую всім.”</p>
+                        <div class="points">&#x2605; &#x2605; &#x2605; &#x2605;  &#x2605;</div>
+                    </div>
+                </div>
+                <div class="item-feedback">
+                    <div class="avatar">
+                        <img src="../assets/img/man.png" alt="Аватар чоловіка">
+                    </div>
+                    <div class="text">
+                        <p>“Чудова цінність за ціною. Дружній персонал і відмінні результати. Повернуся знову.”</p>
+                        <div class="points">&#x2605; &#x2605; &#x2605; &#x2605; &#9734;</div>
+                    </div>
+                </div>
+                <div class="item-feedback">
+                    <div class="avatar">
+                        <img src="../assets/img/woman.png" alt="Аватар жінки">
+                    </div>
+                    <div class="text">
+                        <p>“Загалом, досвід був непоганий, але є простір для покращення обслуговування клієнтів.”</p>
+                        <div class="points">&#x2605; &#x2605; &#x2605; &#9734; &#9734;</div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>   
+   
+<div class="write-feedback">
+    <div class="wrapper">
+        <div class="feedback-form">
+            <h2>Залиште ваш відгук</h2>
+            <form class="form-inputs" action="/submit-feedback" method="POST">
+                <div class="answer">
+                    <label for="name">Ваше ім'я:</label>
+                    <input class="input" id="name" name="name" required>
+                </div>
+                <div class="answer">
+                    <label for="email">Електронна пошта:</label>
+                    <input class="input" type="email" id="email" name="email" required>
+                </div>
+                <div class="answer">
+                    <label for="message">Ваш відгук:</label>
+                    <textarea class="input" id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div>
+                    <button  id="form-btn"  class="button"  type="submit"><a href="#!">Відправити відгук</a></button>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+</div>
+     <footer>
+     
+        
+        <div class="wrapper">
+            <div class="logo-footer"></div>
+            <div class="line"></div>
+            <div class="source">
+                <div class="first-source">
+                    
+                    <p class="marketinf">Marketing</p>
+                    <p class="cookie">Cookie statement</p>
+                    </div>
+                <div class="second-source"><p>© 2021 - Flex IT</p></div>
+                <div class="third-source"><p>Website by: me <div class="mbu"></div></p></div>
+    
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+<script src="../assets/js/jquery.js"></script>
+<script src="../assets/js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>

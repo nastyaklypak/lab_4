@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font/font/stylesheet.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Order</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper-header">
+        <div class="header-flex">
+            <div class="logo">
+                <a href="#!">
+                 <img src="img/logo.svg" alt="HP logo">
+                </a>
+            </div>
+            <nav>
+                <div class="menu">
+                    <button class="dropbtn"><a href="">Замовити</a></button>
+                  <ul class="min-menu">
+                      <li><a href="new.html">Відгуки</a></li>
+                      <li><a href="index.html">Головна</a></li>
+                      <li><a href="product.html">Каталог</a></li>
+                  </ul>
+                </div>   
+            </nav>
+            <a href="#modal" class="button" id="sing-in-button">Sign in</a>
+        
+            <!-- Модальне вікно -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <a href="#" class="close">&times;</a>
+        
+                <h2>Форма автентифікації</h2>
+                <form>
+                    <label for="username">Ім'я користувача:</label>
+                    <input type="text" id="username" name="username" required>
+        
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password" required>
+        
+                    <button type="submit" class="button">Увійти</button>
+                </form>
+            </div>
+        </div>
+        <div class="mobile-search">
+            <form class="search" action="" method="get">
+                <input name="s" placeholder="Пошук..." type="search">
+                <span class="search-icon">&#128269;</span>
+            </form>
+            </div>
+        </div>    
+        </header>
+ <div class="wrapper">
+    <div class="block">
+            <div class="step one">
+                <h1 class="step">Оформити замовлення</h1>
+                <label>
+                    <span class="label">Ім'я</span>
+                    <input type="text" name="firstname">
+                </label>
+                <label>
+                    <span class="label">Прізвище</span>
+                    <input type="text" name="lastname">
+                </label>
+                <label>
+                    <span class="label">Модель продукту</span>
+                    <input type="text" name="title"  placeholder="Модель продукту">
+                </label>
+                <label>
+                    <span class="label">Телефон</span>
+                    <input type="tel" id="phone" name="phone" pattern="\+380 \(\d{2}\) \d{3} \d{2} \d{2}" placeholder="+380 (xx) xxx xx xx">
+                </label>
+                <label>
+                    <label for="email">Електронна пошта:</label>
+                    <input type="email" id="email" name="email" placeholder="yourname@example.com" required>
+                </label>
+                <label>
+                <p>Доставка:</p>
+                <div class = "delivery">
+                    <input type="radio" id="html" name="delivery" value="післяплата">
+                    <label for="html">післяплата</label><br>
+                </div>
+                <div class = "delivery">
+                    <input type="radio" id="css" name="delivery" value="передоплата">
+                    <label for="css">передоплата</label><br>
+                </div>
+            </label>
+                <a class="continue" href="#">Оформити</a>
+            </div>
+        </div>
+        </div>  
+
+ <footer>
+        <div class="wrapper">
+            <div class="logo-footer"></div>
+            <div class="line"></div>
+            <div class="source">
+                <div class="first-source">
+                    
+                    <p class="marketinf">Marketing</p>
+                    <p class="cookie">Cookie statement</p>
+                    </div>
+                <div class="second-source"><p>© 2021 - Flex IT</p></div>
+                <div class="third-source"><p>Website by: <div class="mbu"></div></p></div>
+    
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
