@@ -56,6 +56,7 @@ button#sing-in-button {
 }
 
 #myBtn {
+  scroll-behavior: smooth;
   position: fixed;
   padding: 20px;
   z-index: 99;
